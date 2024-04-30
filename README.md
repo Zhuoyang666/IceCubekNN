@@ -23,10 +23,10 @@ Please visit the repository for a more detailed illustration of events generatio
 data (CSR data) on the surface of a unit sphere. It will compute and plot the cross-correlations between uncorrelated samples (two different CSR data) and
 correlated data (two subsamples from the same group of CSR data).
 
-2. <ins>*IceCube_kNN_Events_Generation*</ins>: This notebook illustrate the synthetic events generation (include maskings) for atmospheric-only events and a combined atm. + astro. sample
+2. <ins>*IceCube_kNN_Events_Generation*</ins>: This notebook illustrates the synthetic events generation (including maskings) for atmospheric-only events and a combined atm. + astro. sample
 with f_astro ~ 0.0374. It contains the plotting for the synthetic astrophysical neutrinos and background-only events with aitoff projection.
 
-3. <ins>*IceCube_kNN_LRT-MLE*</ins>: This notebook illustrate how to conduct the likelihood ratio test with the likelihood function defined in the paper and the maximum likelihood
-estimation procedure. We provide 1000 cross-correlations between the selected WISE-2MASS sample wth synthetic data with f_astro ~ 0.0374 for illustration. 
+3. <ins>*IceCube_kNN_LRT-MLE*</ins>: This notebook illustrates how to conduct the likelihood ratio test with the likelihood function defined in the paper and the maximum likelihood
+estimation procedure. We provide several cross-correlations with different f_astro and normalizations for reproducing Figure 5 and Figure 8 in the paper.
 
-4. <ins>*IceCube_kNN_Real_Measurement*</ins>: This notebook reproduces the Figure 6 in the paper by computing the cross-correlation between the IceCube 10-year data: 2008 - 2018 and the selected WISE-2MASS sample. 
+4. <ins>*IceCube_kNN_Real_Measurement*</ins>: This notebook reproduces Figure 6 in the paper by computing the cross-correlation between the IceCube 10-year data: 2008 - 2018 and the selected WISE-2MASS sample. 
